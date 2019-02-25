@@ -2,14 +2,22 @@ E8 - Ensemble Trees Overview
 Write at least 300 words explaining why ensemble is a succesful strategy in machine learning.
 
 Ensembling, es una estrategia exitosa en los concursos de data-science.
-Ensembling, es una técnica que permite mejorar el rendimiento de los modelos de minería de datos. El Ensembling consiste en ejecutar una combinación de varios clasificadores individuales, y así, el ensemble consigue mejorar el rendimiento. Esto se logra al introducir perturbaciones aleatorias en el proceso de aprendizaje, a través del uso de diferentes clasificadores, sobre el mismo set de entrenamiento. La combinación se realiza a través de promedios o votaciones mayoritarias, lo anterior, consigue que el error cometido por cada modelo, probablemente no ha sido cometido por los demás modelos, y al tomar promedios o votaciones, ese error desaparecerá.
+Ensembling, es una técnica que permite mejorar el rendimiento de los modelos de minería de datos. 
+El Ensembling consiste en ejecutar una combinación de varios clasificadores individuales, y así, el ensemble consigue mejorar el rendimiento. 
+Esto se logra al introducir perturbaciones aleatorias en el proceso de aprendizaje, a través del uso de diferentes clasificadores, sobre el mismo set de entrenamiento. 
+La combinación se realiza a través de promedios o votaciones mayoritarias, lo anterior, consigue que el error cometido por cada modelo, probablemente no ha sido cometido por los demás modelos, y al tomar promedios o votaciones, ese error desaparecerá.
 
 Un ejemplo de lo anterior, es el bagging, técnica donde se generan perturbaciones sobre el mismo set de entrenamiento, al reordenar aletoriamente los datos, tantas veces como modelos, permitiendo así anular los errores.
 
-Evaluar la predicción de un ensemble típicamente requiere más computación que la evaluación de la predicción de un modelo único. Esto se puede ver como la manera de compensar el uso de algoritmos malos a través del uso de computación extra. Dado lo anterior, algoritmos rápidos pero malos, como los arboles de decisión, son usualmente usados en los ensembles (tratándose de los random forests), usualmente consiguiendo un mejor resultado en los random forests. Eso si, perdiendo interpretabilidad.
+Evaluar la predicción de un ensemble típicamente requiere más computación que la evaluación de la predicción de un modelo único. 
+Esto se puede ver como la manera de compensar el uso de algoritmos malos a través del uso de computación extra. 
+Dado lo anterior, algoritmos rápidos pero malos, como los arboles de decisión, son usualmente usados en los ensembles (tratándose de los random forests), 
+usualmente consiguiendo un mejor resultado en los random forests. Eso si, perdiendo interpretabilidad.
 
-De hecho, la perdida de interpretabilidad, es el principal problema que surge del uso de ensembles, ya que al agregar múltiples y variados métodos, y después de usar votaciones o promedios, no existe posibilidad alguna de rastrear ni a los métodos y mucho menos a sus coeficientes.
+De hecho, la perdida de interpretabilidad, es el principal problema que surge del uso de ensembles, ya que al agregar múltiples y variados métodos, 
+y después de usar votaciones o promedios, no existe posibilidad alguna de rastrear ni a los métodos y mucho menos a sus coeficientes.
 
-Lo anterior, no es un impedimento para convertir a los ensembles, en una técnica muy popular para resolver problemas supervisados, ya que la ganancia en performance, suele ganar la batalla a la interpretabilidad, sobre todo, en problemas de clasificación. 
+Lo anterior, no es un impedimento para convertir a los ensembles, en una técnica muy popular para resolver problemas supervisados, 
+ya que la ganancia en performance, suele ganar la batalla a la interpretabilidad, sobre todo, en problemas de clasificación. 
 
 David Fajardo
