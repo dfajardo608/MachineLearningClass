@@ -1,0 +1,27 @@
+# E16 - Natural Language Processing Overview
+
+Research for a commercial product which uses NLP as a core(E.g. google assistant) and describes, in general words, 
+which NLP techniques it uses.
+
+(If two of you have the same commercial product, both of your grades will be penalized --- Be creative! )
+
+Commercial product: ServiceNow chatbot
+
+When it comes to making requests inside a company for new equipment or to learn about HR policies, 
+it can be a frustrating experience for both sides of the equation. 
+HR and IT are probably tired of answering the same questions. 
+
+Employees are tired of calling a help desk for routine inquiries and waiting for answers. 
+ServiceNow’s new bot-building technology is designed to alleviate that problem by providing a way 
+to create an automated bot-driven process for routine requests.
+
+**Use Cases:
+This commercial product uses NLP techniques in the following way:
+For example, if you tell the bot you need a new phone, it can pull your records, understand what you currently have
+and order a new one all in the same interaction — and all within a common messaging interface such as Slack or Microsoft Teams.
+
+It also works for customer service transactions to process routine customer inquiries without having to route them 
+to a CSR to answer typical questions.
+
+The company claims that using these chatbots, customers can reduce call volume to help desks and customer service by 15-20 percent, 
+using the standard argument that it should free humans to handle more difficult inquiries.
